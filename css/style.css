@@ -1,0 +1,85 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h3 {
+    color: #b92b27;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#signup:hover {
+    background-color: #b96e27;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#login {
+    background-color: #117272;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#login:hover {
+    background-color: #113372;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#login:active {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.upvote, .answer {
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.answer {
+    background-color: coral;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #b92b27;
+    text-decoration: #b92b27 underline;
+}
+
+main a:hover {
+    color: #b92b27;
+    text-decoration: #b92b27 wavy underline;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+.post:nth-of-type(2n+1) {
+    background-color: rgb(140, 161, 224);
+}
+.post:nth-of-type(2n) {
+    background-color: rgb(224, 153, 140);
+}
