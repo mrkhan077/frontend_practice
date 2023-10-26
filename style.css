@@ -269,3 +269,14 @@ footer a {
     color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+#search:hover, #learn_more:hover, #yt_button:hover, #lang:hover {
+    background-color: #133a61;
+    box-shadow: 0 1em 10px 1px rgba(0, 0, 0, 0.322);
+    transform: translateY(-0.15em);
+    transition: all 0.25s;
+}
+
+header a:hover, main a:hover, footer a:hover {
+    color: #2b74bd;
+}
